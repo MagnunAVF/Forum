@@ -4,6 +4,7 @@ help:
 	@echo 'Usage:                                                                '
 	@echo '   setup                   Install all dependencies to dev            '
 	@echo '   clean                   Delete all DBs and create new ones         '
+	@echo '   test                    Run all tests                              '
 
 setup:
 	bundle install
@@ -17,4 +18,7 @@ clean:
 	rake db:create
 	rake db:migrate
 
-.PHONY: help, setup, clean
+test:
+	rspec
+
+.PHONY: help, setup, clean, test
