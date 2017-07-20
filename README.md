@@ -28,7 +28,15 @@ make setup
 
 ## Running the tests
 
-Not yet done
+Run in terminal:
+```
+make test
+```
+
+For automated tests in dev, run:
+```
+bundle exec guard
+```
 
 ## Deployment
 
@@ -37,6 +45,8 @@ Not yet done
 ## Built With
 * [Ruby](https://www.ruby-lang.org/)
 * [RubyOnRails](http://rubyonrails.org/)
+* [Rspec](http://rspec.info/)
+* [Guard](https://github.com/guard/guard)
 
 ## Contributing
 

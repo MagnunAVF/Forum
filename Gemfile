@@ -52,6 +52,9 @@ end
 group :test do
   # Rspec for Tests (TDD)
   gem 'rspec-rails'
+  # Guard for automated Tests
+  gem 'guard'
+  gem 'guard-rspec'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
