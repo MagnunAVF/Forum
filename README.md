@@ -47,6 +47,9 @@ Not yet done
 * [RubyOnRails](http://rubyonrails.org/)
 * [Rspec](http://rspec.info/)
 * [Guard](https://github.com/guard/guard)
+* [FactoryGirl](https://github.com/thoughtbot/factory_girl)
+* [Faker](https://github.com/stympy/faker)
+* [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
 
 ## Contributing
 

@@ -38,6 +38,13 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # Fixtures to help in tests
+  gem "factory_girl_rails", "~> 4.0"
+  # Random values to fixtures
+  gem 'faker'
+  # Clean database after tests
+  gem 'database_cleaner'
+
 end
 
 group :development do
