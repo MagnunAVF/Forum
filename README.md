@@ -1,5 +1,7 @@
 # Forum Web App
 
+[![Build Status](https://travis-ci.org/MagnunAVF/Forum.svg?branch=master)](https://travis-ci.org/MagnunAVF/Forum)
+
 A Simple Forum Web app.
 This project has educationa purposes.
 
