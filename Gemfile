@@ -44,7 +44,6 @@ group :development, :test do
   gem 'faker'
   # Clean database after tests
   gem 'database_cleaner'
-
 end
 
 group :development do
@@ -62,6 +61,7 @@ group :test do
   # Guard for automated Tests
   gem 'guard'
   gem 'guard-rspec'
+  gem 'simplecov', :require => false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

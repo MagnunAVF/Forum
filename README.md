@@ -50,6 +50,7 @@ Not yet done
 * [FactoryGirl](https://github.com/thoughtbot/factory_girl)
 * [Faker](https://github.com/stympy/faker)
 * [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
+* [SimpleCov](https://github.com/colszowka/simplecov)
 
 ## Contributing
 

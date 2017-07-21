@@ -18,3 +18,6 @@
 
 # Ignore precompiled files (created in make setup)
 /public/assets
+
+# Ignore test coverage report
+coverage

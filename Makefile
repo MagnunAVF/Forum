@@ -5,6 +5,7 @@ help:
 	@echo '   setup                   Install all dependencies to dev            '
 	@echo '   clean                   Delete all DBs and create new ones         '
 	@echo '   test                    Run all tests                              '
+	@echo '   test-cov                Run all tests with coverage result         '
 
 setup:
 	bundle install
@@ -21,4 +22,8 @@ clean:
 test:
 	rspec
 
-.PHONY: help, setup, clean, test
+test-cov:
+	@make test
+	sensible-browser ./coverage/index.html
+
+.PHONY: help, setup, clean, test, test-cov
