@@ -1,6 +1,7 @@
 # Forum Web App
 
 [![Build Status](https://travis-ci.org/MagnunAVF/Forum.svg?branch=master)](https://travis-ci.org/MagnunAVF/Forum)
+[![BCH compliance](https://bettercodehub.com/edge/badge/MagnunAVF/Forum?branch=master)](https://bettercodehub.com/)
 
 A Simple Forum Web app.
 This project has educationa purposes.
