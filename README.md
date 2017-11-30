@@ -50,7 +50,7 @@ Not yet done
 * [RubyOnRails](http://rubyonrails.org/)
 * [Rspec](http://rspec.info/)
 * [Guard](https://github.com/guard/guard)
-* [FactoryGirl](https://github.com/thoughtbot/factory_girl)
+* [FactoryBot](https://github.com/thoughtbot/factory_bot_rails)
 * [Faker](https://github.com/stympy/faker)
 * [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
 * [SimpleCov](https://github.com/colszowka/simplecov)
