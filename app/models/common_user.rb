@@ -1,0 +1,3 @@
+class CommonUser < User
+
+end
